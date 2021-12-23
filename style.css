@@ -1,0 +1,21 @@
+h1{
+    background-color: red;
+    text-align: center;
+    color: whitesmoke;
+}
+.buttons{
+    /* justify-content: center; */
+    text-align: center;
+}
+.gameBoard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    color: red;
+    background: whitesmoke;
+    border: 5px solid gray;
+  }
